@@ -1,0 +1,104 @@
+/*global font*/
+html, head, body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, monospace;
+}
+
+/*body styles*/
+.navbar-border
+{
+    border: 2px solid;
+    margin: 16px;
+    margin-bottom: 16px;
+    padding: 2 px, 8px;
+}   
+.navbar ul
+{
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Modern horizontal layout */
+}
+.navbar li a 
+{
+    display: block; 
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+} 
+
+.ascii-title
+{
+    margin-left: 100px;
+}
+
+.content-area
+{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+section
+{
+    padding: 10px;
+    margin: 16px;
+}
+
+.blog-post-border
+{
+    flex: 3;
+    border: 2px solid;
+    padding: 10px;
+    margin: 16px;
+
+}
+.blog-post-border legend 
+{
+    padding: 2px 8px;
+}
+
+aside
+{
+    flex: 1;
+    vertical-align: top;
+    padding: 15px;
+}
+
+/* schedule styles*/  
+.sched-post-border
+{
+    flex: 3;
+    border: 2px solid;
+    padding: 10px;
+    margin: 16px;
+}
+.sched-post-border legend 
+{
+    padding: 2px 8px;
+}
+.sched-table th
+{
+    border-collapse: collapse;
+    padding: 8px;
+}
+.sched-table
+{
+    border-collapse:separate;
+    border-spacing: 8px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Footer styles */
+.footer-border
+{
+    display: block;
+    border: 2px solid;
+    margin: 16px;
+    margin-top: 24px;
+    padding: 2 px, 8px;
+    text-align: center;
+}

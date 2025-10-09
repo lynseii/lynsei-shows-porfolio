@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/colors.css">
+
+        <title>lindsay's schedule</title>
+    </head>
+    <body>
+        <fieldset class="navbar-border">
+            <legend>nav</legend>
+
+            <nav class="navbar"> 
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="schedule.html">schedule</a></li>
+                </ul>
+            </nav>
+        </fieldset>
+
+        <div class="ascii-title">
+            <pre>   
+              __                 __           ___             
+             /\ \               /\ \         /\_ \            
+  ____    ___\ \ \___      __   \_\ \  __  __\//\ \      __   
+ /',__\  /'___\ \  _ `\  /'__`\ /'_` \/\ \/\ \ \ \ \   /'__`\ 
+/\__, `\/\ \__/\ \ \ \ \/\  __//\ \L\ \ \ \_\ \ \_\ \_/\  __/ 
+\/\____/\ \____\\ \_\ \_\ \____\ \___,_\ \____/ /\____\ \____\
+ \/___/  \/____/ \/_/\/_/\/____/\/__,_ /\/___/  \/____/\/____/
+            </pre>
+        </div>
+
+        <div class="content-area">
+            <fieldset class="sched-post-border">
+                <legend>fall schedule</legend>
+
+                <table class="sched-table">
+                    <tr>
+                        <th>day</th>
+                        <th>course</th>
+                        <th>time</th>
+                        <th>location</th>
+                    </tr>
+                    <tr>
+                        <td>monday</td>
+                        <td>digital imaging 2</td>
+                        <td>9:30-12:20</td>
+                        <td>NW3-107</td>
+                    </tr>
+                    <tr>
+                        <td>monday</td>
+                        <td>magaging workflows 2</td>
+                        <td>15:00-17:50</td>
+                        <td>NE1-345</td>
+                    </tr>
+                    <tr>
+                        <td>tuesday</td>
+                        <td>essentials of marketing</td>
+                        <td>11:30-14:20</td>
+                        <td>NE1-216</td>
+                    </tr>
+                    <tr>
+                        <td>tuesday</td>
+                        <td>gcom 3</td>
+                        <td>15:30-16:20</td>
+                        <td>NW3-107</td>
+                    </tr>
+                    <tr>
+                        <td>wednesday</td>
+                        <td>structural packaging design</td>
+                        <td>11:30-14:20</td>
+                        <td>NE1-345</td>
+                    </tr>
+                    <tr>
+                        <td>wednesday</td>
+                        <td>sustainability practi</td>
+                        <td>16:30-19:20</td>
+                        <td>Nw3-107</td>
+                    </tr>
+                    <tr>
+                        <td>thursday</td>
+                        <td>web design</td>
+                        <td>10:00-12:50</td>
+                        <td>NE1-345</td>
+                    </tr>
+                    <tr>
+                        <td>thursday</td>
+                        <td>sales</td>
+                        <td>14:00-16:50</td>
+                        <td>NE1-318</td>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            <aside>
+                <img width= "496px" height= "238px"
+                    src="images/sleeping-cat.gif"
+                    alt="oop! there was a pic here"/>
+            </aside>
+        </div>
+    </body>
+    <footer>
+        <fieldset class="footer-border">
+            <legend>end of page</legend>
+
+            <p>2025 lindsay's website.</p>
+        </fieldset>
+    </footer>
+</html>

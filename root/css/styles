@@ -1,1 +1,177 @@
+body
+{
+    font-family: monospace;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: #faf4ed;
+}
+h1, h2
+{
+    margin: 0;
+    color: #575279;
+}
+nav ul 
+{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li a {
+  display: block; /* Makes the whole link clickable */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  color: black;
+}
+nav li a:hover {
+  text-decoration: 2px underline;
+  text-underline-offset: 14px;
+  
+  color: #575279;
+}
+header
+{
+    grid-area: header;
+    display: flex;
+    border-bottom: 1px solid #f2e9e1;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.portfolio-card
+{
+    border-radius: 30px;
+    box-shadow: 0 10px 25px #9893a5;
+    max-width: 900px;
+    width: 100%;
+    padding: 3em;
+    box-sizing: border-box;
+
+    background-color: #fffaf3;
+}
+.portfolio-card
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    grid-template-areas:
+        "header header"
+        "image content"
+        "footer footer";
+}
+figure img
+{
+    display: block;
+    width: 100;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+figure
+{
+    grid-area: image;
+    margin: 0;
+}
+.contact-button
+{
+    display: inline-block;
+    padding: 10px 18px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.2s;
+}
+.button-group 
+{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.primary-btn
+{
+    background-color: #907aa9;
+    color: white;
+}
+.secondary-btn
+{
+    background-color: #f2e9e1;
+    color: #575279;
+}
+section
+{
+    grid-area: content;
+}
+footer
+{
+    grid-area: footer;
+    padding-top: 15px;
+    border-top: 1 px solid #f2e9e1;
+    text-align: center;
+    font-size: 0.8em;
+
+    color: #9893a5;
+}
+
+@media(max-width: 767px)
+{
+    .portfolio-card 
+    {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "image"
+            "content"
+            "footer";
+    }
+
+    header
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    header h1
+    {
+        margin-bottom: 10px;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+        border-top: 1px solid #f2e9e1;
+        padding: 10px;
+    }
+
+    nav a
+    {
+        display: block;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .button-group
+    {
+
+        flex-direction: column;
+    }
+
+    .contact-button
+    {
+        width: 100%;
+    }
+}
 
